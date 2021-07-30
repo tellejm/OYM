@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBRAS Y MONTAJES 76 S. A .S</title>
+  <link rel="shortcut icon" href="img/iconlogo.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"></head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+      <a class="navbar-brand " href="#">
+        <video width="300" height="100" loop="true" muted autoplay >
+          <source src="video\logo.mp4" type="video/mp4">
+          Tu navegador no soporta HTML5 video.
+        </video>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-4"></div>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup" >
+        <div class="navbar-nav  h5">
+          <a class="nav-link active float-right " href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="servicio.html">Productos y servicios</a>
+          <a class="nav-link" href="somos.html">Nosotros</a>
+          <a class="nav-link active" href="contactenos.html">Contactenos</a>
+        </div>
+      </div>
+    </nav>
+      <div class="m-4 p-4">
+        <div class="m-4 p-4">
+        </div>
+      </div>
+
+    <section>
+          
+            <div class="col-sm-12 d-flex justify-content-center text-primary p-4 font-size:20px">
+            <h2>Contáctenos</h2>
+           </div>
+        
+            <div class="container">
+                <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+                    <div class="form-group">
+                        <label class="control-label" for="Nombre">Nombres</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus />
+                    </div>            
+                    <div class="form-group">
+                        <label class="control-label" for="Motivo">Motivo de Contacto</label>
+                        <select name="Motivo" class="form-control">
+                            <option value="Consulta General">Consulta General</option>
+                            <option value="Realizar Pedido">Realizar Pedido</option>
+                            <option value="Informe un problema">Informe un problema</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Empresa">Empresa</label>
+                        <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Introduzca el nombre de su empresa" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
+                        <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Mensaje">Mensaje</label>
+                        <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                    </div>
+                    <div class="form-group">                
+                        <input type="submit" class="btn btn-primary col-4" value="Enviar">
+                        <input type="reset" class="btn btn-default" value="Limpiar">                
+                    </div>
+                    <div id="respuesta" style="display: none;"></div>
+                </form>
+            </div>       
+        </div>
+    
+
+          <div class="container mb-4" >
+              <div class="col-sm-12 d-flex justify-content-center text-primary p-4 font-size:30px">
+                <h2>Localización</h2>
+              </div>
+              <div style="width: 100%"><iframe width="100%" height="228" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=228&amp;hl=es&amp;q=Kra%2074%20No%2065%20a%20-%2024+(OBRAS%20Y%20MONTAJES%2076%20S.%20A%20.S)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              </iframe><a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/"></a>
+             
+          </div>
+        </div>
+
+    </section>
+
+    <footer class="container py-5 text-light bg-dark" >
+        <div class="row">
+          <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+            <small class="d-block mb-3 text-muted">© 2021-2025</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Productos</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Business</a></li>
+              <li><a class="text-muted" href="#">Education</a></li>
+              <li><a class="text-muted" href="#">Government</a></li>
+              <li><a class="text-muted" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
